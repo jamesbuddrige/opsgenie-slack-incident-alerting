@@ -26,3 +26,5 @@ jobs:
           extra_plugins: |
             @saithodev/semantic-release-backmerge
             @semantic-release/git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
